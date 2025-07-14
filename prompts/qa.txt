@@ -1,0 +1,10 @@
+Use the provided context to answer the question accurately. Cite the supporting paragraph.
+
+Context:
+{{retrieved_chunks}}
+
+Question:
+{{user_question}}
+
+Answer: ...
+Justification: “This is supported in Section X: '{{exact sentence}}’”

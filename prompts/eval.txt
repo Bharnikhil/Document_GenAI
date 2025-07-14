@@ -1,0 +1,8 @@
+Given the document context and user response, assess if the answer is correct, partially correct, or incorrect. Explain why and cite evidence.
+
+Question: {{question}}
+User Answer: {{answer}}
+Correct Answer: {{reference_chunk}}
+
+Feedback: ...
+Justification: “Found in Section Y: '{{quote}}’”

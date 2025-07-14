@@ -1,0 +1,79 @@
+{
+    "info": {
+        "_postman_id": "abcd1234-5678-90ef-ghij-klmnopqrstuv",
+        "name": "Smart Document Assistant API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Upload Document",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "formdata",
+                    "formdata": [
+                        {
+                            "key": "file",
+                            "type": "file",
+                            "src": ""
+                        }
+                    ]
+                },
+                "url": {
+                    "raw": "http://localhost:8000/upload",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8000",
+                    "path": ["upload"]
+                }
+            }
+        },
+        {
+            "name": "Ask Question",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"question\": \"What is the summary of the document?\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:8000/ask-question",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8000",
+                    "path": ["ask-question"]
+                }
+            }
+        },
+        {
+            "name": "Generate Summary",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8000/generate-summary",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8000",
+                    "path": ["generate-summary"]
+                }
+            }
+        },
+        {
+            "name": "Challenge Me",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8000/challenge",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "8000",
+                    "path": ["challenge"]
+                }
+            }
+        }
+    ]
+}

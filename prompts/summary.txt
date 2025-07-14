@@ -1,0 +1,1 @@
+"Summarize the following document in less than 150 words. Focus on key arguments or points. Do not hallucinate. Text: {{full_text}}"
