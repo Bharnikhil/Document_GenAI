@@ -13,11 +13,12 @@ def create_vector_store(chunks):
     return vectorstore
 
 def load_qa_prompt():
-    prompt_template = Path("prompts/qa.txt").read_text()
+    prompt_template = Path("prompts/qa.txt").read_text(encoding='utf-8')
     return PromptTemplate(
         template=prompt_template,
         input_variables=["retrieved_chunks", "user_question"]
     )
+
 
 def ask_question(vectorstore, user_question: str):
     retrieved_docs = vectorstore.similarity_search(user_question, k=1)
