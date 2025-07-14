@@ -124,8 +124,9 @@ git commit -m "Added complete README documentation"
 git push origin main
 
 
-📺 Demo Video
-Watch the complete demo of this project on YouTube:
-👉 [https://youtu.be/lsi4cex10sg]
+### 📺 Demo Video
+Watch the complete demo of this project on YouTube:  
+👉 [Watch the Demo on YouTube](https://youtu.be/lsi4cex10sg)
 
 This video provides a walkthrough of the features, functionality, and usage of the project.
+
