@@ -126,6 +126,6 @@ git push origin main
 
 📺 Demo Video
 Watch the complete demo of this project on YouTube:
-👉 [Project Demo Video](https://youtu.be/lsi4cex10sg)
+👉 [(https://youtu.be/lsi4cex10sg)]
 
 This video provides a walkthrough of the features, functionality, and usage of the project.
