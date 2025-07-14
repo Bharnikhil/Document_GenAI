@@ -122,6 +122,7 @@ Edit
 git add README.md
 git commit -m "Added complete README documentation"
 git push origin main
+<<<<<<< HEAD
 👨‍💻 Author  
 Nikhil Bhardwaj  
 
@@ -131,3 +132,13 @@ GitHub: Bharnikhil
 
 ### 📺 Demo Video
 👉 [Watch the Demo on YouTube](https://youtu.be/lsi4cex10sg)
+=======
+
+
+### 📺 Demo Video
+Watch the complete demo of this project on YouTube:  
+👉 [Watch the Demo on YouTube](https://www.youtube.com/watch?v=lsi4cex10sg)
+
+This video provides a walkthrough of the features, functionality, and usage of the project.
+
+>>>>>>> a75161bdf73c00dcf236f3be12a187a5e00c570d
